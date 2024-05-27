@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+}
+
+/* Header Section */
+
+.l-r-space {
+  padding: 0 150px;
+}
+
+section.space {
+  padding-bottom: 260px;
+}
+
+#white-color {
+  color: #fff;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+a{
+  text-decoration: none;
+}
+
+#header {
+  background: #3A3A3A;
+  height: 900px;
+}
+
+#header header {
+  line-height: 46.24px;
+  align-items: baseline;
+}
+
+header #logo,
+header  #navbar li a {
+  color: #fff;
+  text-decoration-line: none;
+  
+}
+
+.imp-color {
+  color: #229ED9
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  transition: 0.5s ease;
+}
+
+#navbar #close {
+  display: none;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+.font-w {
+  font-weight: 700;
+}
+
+#intro {
+  /* border: 2px solid red; */
+  width: 957px;
+  height: 480px;
+  margin-top: 50px;
+}
+
+#intro .intro-containt {
+  padding: 98px 0;
+}
+
+.intro-containt a span {
+  color: #229ED9;
+  text-decoration-line: none;
+}
+
+a.typewrite {
+  text-decoration: none;
+}
+
+.intro-pera span {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px
+}
+
+div.intro-containt h1 {
+  line-height: 87px;
+}
+
+.btn-normal {
+  width: 253px;
+  height: 91px;
+  border: none;
+  border-radius: 15px;
+  background: #D9D9D9;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.btn-normal a {
+  /* text-decoration: none; */
+  text-decoration-line: none;
+}
+
+.btn-normal p {
+  margin: 0px;
+}
+
+#btn-color {
+  background: #229ED9;
+}
+
+.last-img img {
+  width: 100%;
+  margin-top: -2px;
+}
+
+#about h2 {
+  color: #229ED9;
+}
+
+.about-content h3 {
+  padding-bottom: 20px;
+}
+
+.about-content {
+  font-weight: 700;
+  line-height: 25px;
+}
+
+#about .ab-box {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
+  height: 443px;
+}
+
+.about-content.lb h3 {
+  padding-top: 25px;
+}
+
+.edu-img.lb {
+  padding-top: 5px;
+}
+
+.pd-bot {
+  padding-bottom: 140px;
+}
+
+section#portfolio {
+  /* border: 2px solid; */
+  background: linear-gradient(180deg, #229ED9 64.58%, #3A3A3A 100%);
+  padding-bottom: 175px;
+}
+
+#portfolio .port-head h2,
+#skill .skill-head h2 {
+  padding: 75px 0;
+}
+
+.port-box {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.item img {
+  height: 650px;
+  border-radius: 20px;
+}
+
+/* Skill Section  */
+section#skill {
+  background: #3A3A3A;
+  padding-bottom: 230px;
+}
+
+.queation-item {
+  width: 100%;
+  height: 40rem;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+
+.circle {
+  width: 200px;
+  margin: 40px 6px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.circle canvas {
+  vertical-align: top;
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.circle strong {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  color: black;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
+}
+
+/* Map section  */
+
+#map .map iframe {
+  width: 100%;
+  /* height: 426px; */
+}
+
+/* Footer page */
+
+#footer {
+  background-color: #3A3A3A;
+  padding: 100px 0;
+}
+
+.footer-details img {
+  width: 100%;
+  height: 240px;
+}
+
+.logo-name {
+  padding: 30px 15px;
+}
+
+.social-media::after {
+  content: "";
+  background-color: #6c757d;
+  height: 2px;
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px auto;
+}
+
+.s-m {
+  width: 115px;
+}
+
+.s-m img {
+  cursor: pointer;
+  border-radius: 65px;
+  width: 40px;
+}
+
+.foot-head a p:hover{
+  /* color: #76d554 !important; */
+  color: #088178 !important;
+}
+
+img.hover-eff:hover {
+	transform: scale(1.5);
+	box-shadow: 0px 5px #d1d5d6;
+}

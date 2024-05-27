@@ -1,0 +1,260 @@
+  /* Media query Section */
+
+  @media only screen and (max-width: 1143px) {
+    .l-r-space {
+      padding: 0 50px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    div.l-r-space {
+      padding: 0 20px;
+    }
+
+    div#intro {
+      width: 100%;
+    }
+
+    div.footer-details img {
+      height: 175px;
+    }
+
+    p.email {
+      line-break: anywhere;
+    }
+
+    div.owl-carousel .owl-item img {
+      width: 100%;
+    }
+
+    div.port-box {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 883px) {
+    #navbar li a {
+      font-size: 19px;
+    }
+  }
+
+  @media only screen and (max-width: 844px) {
+    .intro-containt h1 {
+      font-size: 40px;
+    }
+
+    .intro-pera span {
+      font-size: 18px !important;
+      font-weight: 300;
+    }
+
+    /* .intro-pera {
+      width: 455px;
+    } */
+
+    div.owl-carousel .owl-item img {
+      width: 100%;
+    }
+
+    div.item img {
+      height: 400px;
+    }
+
+  }
+
+  @media (max-width: 799px) {
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+      right: 0px;
+      height: 65h;
+      width: 300px;
+      background-color: #3A3A3A;
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 80px 0 0 10px;
+      transition: 0.3s;
+    }
+
+    #navbar li {
+      margin-bottom: 25px;
+    }
+
+    #mobile {
+      display: flex !important;
+      align-items: center;
+    }
+
+    #mobile a {
+      color: #fff;
+      font-size: 24px;
+      padding-left: 20px;
+    }
+
+    #close {
+      display: flex !important;
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      color: #222;
+      font-size: 24px;
+    }
+
+    #navbar #close {
+      display: none;
+      color: #fff;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    header {
+      justify-content: space-between;
+    }
+  }
+
+  @media only screen and (max-width: 746px) {
+    /* div#intro .intro-containt {
+    padding: 12px 0;
+} */
+
+    div#intro .intro-containt {
+      padding: 14px 0 98px;
+    }
+
+    div.port-box {
+      width: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 616px) {
+    div.l-r-space {
+      padding: 0 22px;
+    }
+
+    div.port-box {
+      width: 100%;
+      height: 375px;
+    }
+
+    #about .ab-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .ab-img {
+      padding-bottom: 15px;
+    }
+
+  }
+
+  @media only screen and (max-width: 560px) {
+    #header {
+      height: 720px !important;
+    }
+
+    div.intro-containt h1 {
+      line-height: 60px !important;
+      font-size: 25px;
+    }
+
+    .intro-pera span {
+      font-weight: 300 !important;
+      line-height: 25px !important;
+    }
+
+    .footer-details {
+      text-align: center;
+    }
+
+    div.s-m {
+      width: 62px;
+    }
+
+    button.btn-normal {
+      width: 150px;
+      height: 50px;
+      border-radius: 5px;
+    }
+
+    button p {
+      font-size: 15px;
+    }
+
+    section#skill {
+      padding-bottom: 130px !important;
+    }
+
+    #footer {
+      padding: 20px 0 !important;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 535px) {
+    #header header {
+      line-height: 11.24px;
+    }
+
+    a.nav-link {
+      font-size: 21px;
+    }
+
+    li.nav-item {
+      padding: 0;
+    }
+
+    div#intro {
+      padding: 0 12px;
+    }
+
+    ul.nav.nav-pills {
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .intro-containt {
+      text-align: center;
+    }
+
+    button.btn-normal {
+      margin: 8px auto;
+
+    }
+
+    div#intro .intro-containt {
+      padding: 14px 0 46px;
+    }
+
+    .intro-button {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .intro-button button {
+      border-radius: 25px;
+    }
+
+    .btn-normal p {
+      font-size: 13px;
+    }
+
+    section#about .ab-box {
+      box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 30%);
+      padding: 9px;
+    }
+
+    .about-content {
+      padding-bottom: 12px;
+    }
+  }
